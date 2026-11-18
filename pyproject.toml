@@ -1,0 +1,15 @@
+[project]
+name = "clipsai-exp"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "clipsai>=0.2.1",
+    "ipython>=9.18.1",
+    "marimo>=0.25.2",
+    "torchaudio==2.8.0",
+    "whisperx",
+]
+
+[tool.uv.sources]
+whisperx = { git = "https://github.com/m-bain/whisperx.git" }
